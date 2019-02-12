@@ -21,6 +21,12 @@ _Windows_ : Its uses **Win32 Library** so no need to download anything.</br>
 5) Automatically detects all **errors** from **JSON and API side**.</br>
 6) Portability to work on every **major OS** like **_Windows,Linux,Mac_**.</br>
 
+# How to compile on windows :
+You have to add **_WS-Library_** in your project by adding **'-l "ws2_32'** in compiler option if you are using IDE like **CodeBlocks,DevCPP**.</br>
+Or If you are using **Visual Studio** then add this line of code **_#pragma comment(lib, "ws2_32")_**</br>
+Or you can compile with **gcc** using this command **_gcc QuranCloudApp.c -o QuranCloudApp.exe -l "ws2_32_**</br>
+**_NOTE : ITS NOT NEEDED IF YOU USING OS OTHER THAN WINDOWS, COMPILE NORMALLY_**</br>
+
 ## Searching using keywords : 
 
 ![search_engine](https://github.com/haseeb-heaven/Quran-SearchEngine/blob/master/resources/search_engine.jpg?raw=true "")
