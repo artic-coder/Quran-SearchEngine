@@ -31,4 +31,3 @@ Or you can compile with **gcc** using this command **_gcc QuranCloudApp.c -o Qur
 
 ![search_engine](https://github.com/haseeb-heaven/Quran-SearchEngine/blob/master/resources/search_engine.jpg?raw=true "")
 
-Written and maintained by Abdul HaseeB Mir (haseebmir.hm@gmail.com)
